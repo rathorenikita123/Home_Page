@@ -1,0 +1,99 @@
+.box{
+    background-color: white;
+    border-radius: 8px;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+
+}
+
+.box:hover{
+    background-color: rgb(46, 87, 111);
+    transform: translate(-2%, -2%);
+    transition-duration: 0.5s;
+}
+
+.box:hover .text{
+    color: #022c37;
+}
+
+.box:hover .discription{
+    background-color: rgb(210, 237, 238);
+
+}
+
+.content{
+  
+    background-color: rgb(185, 185, 253);
+    margin-bottom: 2rem;
+}
+
+.content h3{
+    text-align: center;
+    padding-top: 1rem;
+    color: #022c37 ;
+    
+}
+
+.product{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.img{
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    height: 70%;
+    object-fit: fill;
+}
+
+.text{
+    color: #ffffff;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+.discription{
+    background-color: #022c37;
+    border-bottom-left-radius: 8px ;
+    border-bottom-right-radius: 8px;
+    width: 100%;
+    height: 30%;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .product{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+        justify-content: center;
+    }
+
+    .box{
+        background-color: white;
+        border-radius: 8px;
+        height: 60vh;
+        width: 50%;
+    
+    }
+
+    .img{
+        width: 100%;
+        height: 70%;
+        object-fit: fill;
+    }
+
+    .product{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+}

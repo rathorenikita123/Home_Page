@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Adamina&family=Bebas+Neue&family=Gentium+Plus:ital@1&family=Inconsolata:wght@200;300;400&family=Joan&family=Kanit:ital,wght@0,100;0,200;1,100&family=Nunito:wght@200&family=Nuosu+SIL&family=PT+Sans&family=Quicksand:wght@300&family=Raleway:wght@100&family=Roboto:wght@100&family=Tai+Heritage+Pro&display=swap');
+
+body{
+    background-color: rgb(201, 201, 246);
+    font-family: 'Adamina', serif;
+}
+
+.container{
+    background-color: #022c37;
+    max-width: 100% !important;
+}
+
+.bg-light{
+    background-color: #022c37 !important;
+}
+
+.navbar-brand{
+    color: rgb(255, 255, 255) !important;
+    font-size: xx-large;
+    margin-left: 1rem;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    color: rgb(255, 255, 255) !important;
+    padding-right: 2rem;
+    padding-left: 2rem;
+
+}
+
+.me-auto {
+    justify-content: center !important;
+    margin-right: 7rem !important;
+}
+
+.navbar-collapse{
+    justify-content: center !important;
+}
+
+.navbar-toggler{
+    color: transparent !important;
+    border: none !important;
+}
+
+.navbar-toggler-icon{
+    background-image: url(./menu.png) !important;
+    width: 2.5rem !important;
+}
